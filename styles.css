@@ -1,0 +1,36 @@
+/* comment in vs code is ctr+k+c by selecting */
+
+.content_text{
+    height: 500px;
+    background-color: rgb(81, 255, 0);
+    margin: 50px 0px;
+    padding: 50px;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 50px gray;
+    overflow-wrap: break-word;
+    overflow: auto;
+    
+}
+
+.content_text h1{
+    font-size: 50px;
+    text-align: center;
+    opacity: 80%;
+    transition: all 0.2s;
+}
+
+.content_text h1:hover{
+    opacity: 100%;
+}
+
+.testbl:hover{
+    box-shadow: 10px 10px 10px rgba(9, 12, 36, 0.288);
+}
+
+#text_area{
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 20px;
+    
+}
